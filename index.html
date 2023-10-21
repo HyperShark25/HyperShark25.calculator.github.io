@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<script src="./script.js"></script>
+	<main>
+		<input type="text" id="result" placeholder=0>
+		<div class="container">
+			<div class="item"><button onclick="pwr()">PWR</button></div>
+			<div class="item"><button onclick="clr()">AC</button></div>
+			<div class="item"><button onclick="del()">DEL</button></div>
+			<div class="item"><button onclick="func()" value="/">÷</button></div>
+		
+			<div class="item"><button onclick="num(7)">7</button></div>
+			<div class="item"><button onclick="num(8)">8</button></div>
+			<div class="item"><button onclick="num(9)">9</button></div>
+			<div class="item"><button onclick="func()" value="*">x</button></div>
+		
+
+			<div class="item"><button onclick="num(4)">4</button></div>
+			<div class="item"><button onclick="num(5)">5</button></div>
+			<div class="item"><button onclick="num(6)">6</button></div>
+			<div class="item"><button onclick="func()" value="-">-</button></div>
+		
+		
+			<div class="item"><button onclick="num(1)">1</button></div>
+			<div class="item"><button onclick="num(2)">2</button></div>
+			<div class="item"><button onclick="num(3)">3</button></div>
+			<div class="item"><button onclick="func()" value="+">+</button></div>
+		
+		
+			<div class="item"><button onclick="rev()">+/-</button></div>
+			<div class="item"><button onclick="num(0)">0</button></div>
+			<div class="item"><button onclick="num('.')">.</button></div>
+			<div class="item"><button onclick="calc()" id="cal">=</button></div>
+		</div>
+	</main>
+</body>
+</html>
